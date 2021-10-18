@@ -40,6 +40,6 @@ Max prefix of 'ab.' is maximum of "a.max_full_word + b.max_prefix" and "a.max_pr
 Max full word of 'ab.' is sum of full words size of 'a' and 'b'.
 
 
-For operation 'a*' result is pretty simple - if full word size greater than zero then result is (infinity, infinity). Else nothing changes.
+For operation 'a*' result is pretty simple - if full word size greater than zero then result is (infinity, infinity). Else result is (a.max_prefix, 0).
 
 After reading all string result is on the top of stack.
